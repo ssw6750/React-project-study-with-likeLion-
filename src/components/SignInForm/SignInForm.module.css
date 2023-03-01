@@ -1,0 +1,57 @@
+.Form{
+  /* 100% 왜 오류남 */
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.linkTitle{
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #5171e0;
+}
+
+.forgotPassword {
+  display: flex;
+  justify-content: flex-start;
+  width: 500px;
+}
+
+.loginButton{
+  width: 500px;
+  height: 80px;
+  border-radius: 4px;
+  background: #3a5cd8;
+  color: #fff;
+  bottom: 0;
+  margin: 0;
+  margin-top: 60px;
+  font-size: 1.6rem;
+}
+
+.loginButton:hover{
+  cursor: pointer;
+}
+
+.footer{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.validation{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  color: firebrick;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}

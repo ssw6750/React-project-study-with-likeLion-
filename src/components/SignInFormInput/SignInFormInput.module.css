@@ -1,0 +1,16 @@
+.Input{
+  width: 500px;
+  height: 80px;
+  border-radius: 4px;
+  border: 1px solid var(--color-gray-300);
+  font-size: 1.6rem;
+}
+
+.Input::placeholder{
+  color: var(--color-gray-200);
+}
+
+.Input:focus{
+  outline: none;
+}
+

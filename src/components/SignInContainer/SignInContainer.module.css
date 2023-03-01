@@ -1,0 +1,14 @@
+.Container{
+  width: 600px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  /* justify-content: center; */
+}
+
+/* rem 적용방법 모르겠.... */
+.Title{
+  font-size: 3.5rem;
+}

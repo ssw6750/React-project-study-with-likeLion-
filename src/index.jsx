@@ -6,6 +6,6 @@ import App from '@/App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App message="안녕!!!!" />
+    <App/>
   </StrictMode>
 );
